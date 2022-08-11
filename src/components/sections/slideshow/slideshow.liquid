@@ -1,0 +1,4 @@
+{% capture src_url %}{{ 'slideshow.js' | asset_url }}{% endcapture %}
+{% render 'script',  src: src_url, priority: 'normal', type: "defer" %}
+
+<h1 class="font-sans">Slideshow</h1>
